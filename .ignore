@@ -1,0 +1,100 @@
+# Created by .ignore support plugin (hsz.mobi)
+### PhpStorm ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+
+# Uncomment if you have tasks to ignore
+# .idea/tasks
+
+# Traces of version control
+.idea/**/vcs.xml
+
+# ============================================
+# Composer
+# ============================================
+
+# Composer vendor directory
+/vendor
+
+# Composer PHAR
+composer.phar
+
+# Composer lock file
+composer.lock
+
+# ============================================
+# PhpStorm specific
+# ============================================
+
+# .phpstorm.meta.php
+
+# PhpStorm Store
+.phpstorm.meta.php/store
+
+# ============================================
+# Laravel
+# ============================================
+
+# Laravel environment file
+.env
+
+# Ignore storage directory contents
+/storage/*
+!public/storage/.gitkeep
+
+# Ignore PHPUnit XML files
+phpunit.xml
+phpunit.xml.dist
+
+# Laravel Mix
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Laravel Homestead
+Homestead.yaml
+Homestead.yaml.example
+
+# Laravel Valet
+. valet
+
+# Laravel Elixir
+elixir.json
+
+# Laravel Envoy
+.env.blade.php
+
+# Laravel & Lumen
+.env.*.local
+.env.*.testing
+.env.*.phpstorm
+
+# Docker Compose
+docker-compose.yml
+docker-compose.dev.yml
+docker-compose.prod.yml

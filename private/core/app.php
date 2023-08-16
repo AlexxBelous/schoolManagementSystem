@@ -12,12 +12,17 @@ class App
 
     public function __construct()
     {
-        echo '<pre>';
-        print_r($this->getURL());
+        $URL = $this->getURL();
+        if (file_exists("../private/controllers/" . $URL[0] . ".php")) {
+            $this->controller = $URL[0];
+        }
+        require "../private/controllers/" . $this->controller . ".php";
+        $this->controller = new $this->controller();
     }
 
     private function getURL()
     {
-        return explode("/", filter_var(trim($_GET['url'], "/")), FILTER_SANITIZE_URL);
+        $url = isset($_GET['url']) ? $_GET['url'] : "home";
+        return explode("/", filter_var(trim($url, "/")), FILTER_SANITIZE_URL);
     }
 }

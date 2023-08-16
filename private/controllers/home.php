@@ -4,7 +4,7 @@
  * home controller
  */
 
-class Home extends Collator
+class Home extends Controller
 {
     function __construct()
     {

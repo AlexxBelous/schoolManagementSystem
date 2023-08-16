@@ -4,7 +4,7 @@
  * home controller
  */
 
-class Students extends Collator
+class Students extends Controller
 {
     function __construct()
     {
